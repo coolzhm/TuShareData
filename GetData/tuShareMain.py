@@ -404,7 +404,7 @@ def saveStockHistoryIncreaseSingle():
     '''
     global fail_increase, stock_list_increase
     while len(stock_list_increase) > 0:
-        print("列表剩余[{0}]个元素".format(len(stock_list)))
+        print("列表剩余[{0}]个元素".format(len(stock_list_increase)))
         # 取出列表中一个元素
         one = stock_list_increase.pop()
         startdate, enddate = getStockStartDate(one)
@@ -486,10 +486,10 @@ if __name__ == '__main__':
     # saveStockbasic()
 
     # 首次获取股票两年内历史数据，参数为线程数量
-    saveStockHistory(8)
+    # saveStockHistory(8)
 
     # 获取股票增量历史数据，参数为线程数量
-    #saveStockHistoryIncrease(1)
+    saveStockHistoryIncrease(8)
 
     # 获取股票行业分类、概念分类、地域分类、中小板分类、创业板分类等分类信息
     # 此处使用python的高阶函数，将函数名存储入列表后依次调用
