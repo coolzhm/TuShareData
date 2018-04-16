@@ -9,7 +9,12 @@ python 3.5<br>
 
 文件说明
 ===
-GetData
+DataAnalyse（存放数据分析过程及展示效果）
+---
+fluctuationRatio.py 计算股票的波动率，并且使用pyecharts展示数据
+
+
+GetData(存放获取数据的方法以及数据库表创建SQL)
 ----
 config.py           存储配置信息<br>
 tuShareMain.py      存储获取数据的方法及使用案例<br>
