@@ -5,7 +5,7 @@ import pymysql
 import tushare as ts
 from sqlalchemy import create_engine
 
-from GetData import config
+import config
 
 
 # 获取所有的股票

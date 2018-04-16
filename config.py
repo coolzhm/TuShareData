@@ -6,5 +6,3 @@ mysql_info={
     'db':'你的数据库名',
     'charset':'utf8'
 }
-
-
