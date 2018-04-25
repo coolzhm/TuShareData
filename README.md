@@ -13,16 +13,18 @@ DataAnalyse（存放数据分析过程及展示效果）
 ---
 fluctuationRatio.py 计算股票的波动率，并且使用pyecharts展示数据<br>
 showKline.py 使用从tushare下载的股票数据显示K线图
-![600360 K线图](https://github.com/coolzhm/TuShareData/raw/master/ProjectImag/600360 K线图.png)
+![image](https://github.com/coolzhm/TuShareData/raw/master/ProjectImag/600360 K线图.png)
 
 
 GetData(存放获取数据的方法以及数据库表创建SQL)
 ----
-config.py           存储配置信息<br>
 tuShareMain.py      存储获取数据的方法及使用案例<br>
 stock_history.sql   创建存储股票历史数据的表<br>
 stockbasics.sql     创建存储股票基本信息的表<br>
 
+config.py
+----
+存储配置信息<br>
 
 说明
 ---
