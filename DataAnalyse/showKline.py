@@ -76,4 +76,4 @@ def view(code, start_, end_):
 
 
 if __name__ == '__main__':
-    view(code='000016', start_='2017-04-01', end_='2018-04-16')
+    view(code='600360', start_='2017-04-01', end_='2018-04-16')

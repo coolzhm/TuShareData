@@ -11,7 +11,9 @@ python 3.5<br>
 ===
 DataAnalyse（存放数据分析过程及展示效果）
 ---
-fluctuationRatio.py 计算股票的波动率，并且使用pyecharts展示数据
+fluctuationRatio.py 计算股票的波动率，并且使用pyecharts展示数据<br>
+showKline.py 使用从tushare下载的股票数据显示K线图
+![600360 K线图](https://github.com/coolzhm/TuShareData/raw/master/ProjectImag/600360 K线图.png)
 
 
 GetData(存放获取数据的方法以及数据库表创建SQL)
@@ -36,3 +38,4 @@ stockbasics.sql     创建存储股票基本信息的表<br>
 ===
 20180412 使用多线程从TuShare读取数据并存入Mysql数据库，包括股票基本信息、历史数据（两年内历史数据）、增量历史数据获取、股票分类信息<br>
 20180416 计算股票的波动率，并且使用pyecharts展示数据<br>
+20180425 使用从tushare下载的股票数据显示K线图<br>
