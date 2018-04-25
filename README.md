@@ -12,8 +12,8 @@ python 3.5<br>
 DataAnalyse（存放数据分析过程及展示效果）
 ---
 fluctuationRatio.py 计算股票的波动率，并且使用pyecharts展示数据<br>
-showKline.py 使用从tushare下载的股票数据显示K线图
-![image](https://github.com/coolzhm/TuShareData/raw/master/ProjectImag/600360 K线图.png)
+showKline.py 使用从tushare下载的股票数据显示K线图<br>
+![image](https://raw.githubusercontent.com/coolzhm/TuShareData/master/ProjectImag/600360%20K%E7%BA%BF%E5%9B%BE.png)
 
 
 GetData(存放获取数据的方法以及数据库表创建SQL)
